@@ -8,18 +8,18 @@
 			</a>
 			<search-box></search-box>
 			<div class="icons">
-				<div>
+				<router-link to="/home">
 					<i class="fas fa-home"></i>
-				</div>
-				<div>
+				</router-link>
+				<router-link to="/direct">
 					<i class="fas fa-paper-plane"></i>
 					<div class="bubble-notification">
 						{{ directCount }}
 					</div>
-				</div>
-				<div>
+				</router-link>
+				<router-link to="explore" tag="div">
 					<i class="far fa-compass"></i>
-				</div>
+				</router-link>
 				<div><i class="far fa-heart"></i></div>
 				<div class="img-holder user-img">
 					<img :src="userImg" alt="user image" />
