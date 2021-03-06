@@ -1,4 +1,9 @@
-<template> <main-header></main-header></template>
+<template>
+	<main-header></main-header>
+	<main>
+		<router-view class="content-wrapper"></router-view>
+	</main>
+</template>
 
 <style lang="scss">
 @import './src/styles/main.scss';
