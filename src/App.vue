@@ -1,5 +1,12 @@
-<template> </template>
+<template> <main-header></main-header></template>
 
 <style lang="scss">
-@import './styles/main.scss';
+@import './src/styles/main.scss';
 </style>
+
+<script>
+import MainHeader from './components/Header';
+export default {
+	components: { MainHeader },
+};
+</script>
