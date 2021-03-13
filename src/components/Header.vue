@@ -37,7 +37,7 @@ export default {
 	},
 	computed: {
 		userImg() {
-			return this.$store.state.data.userImg;
+			return this.$store.state.userImg;
 		},
 		directCount() {
 			return 2;
@@ -49,6 +49,7 @@ export default {
 <style lang="scss" scoped>
 header {
 	border-bottom: 1px solid $gray-1;
+	background: #ffffff;
 }
 
 .content {

@@ -7,7 +7,7 @@ function loadUsers(state, users) {
 		};
 	});
 
-	state.data.users = users;
+	state.users.push(...users);
 }
 
 export { loadUsers };

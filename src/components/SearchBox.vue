@@ -42,9 +42,6 @@ export default {
 
 	mounted() {
 		this.$store.dispatch('loadUsers');
-		setTimeout(() => {
-			console.log(this.$store.getters);
-		}, 1000);
 	},
 
 	computed: {
@@ -65,7 +62,6 @@ export default {
 		stopSearching() {
 			this.active = false;
 			this.searchValue = '';
-			this.foundUsers = [];
 		},
 
 		activate() {
@@ -95,7 +91,7 @@ export default {
 	/* The next line does nothing to the element's style.
 	 Its purpose is to make the .wrapper element containing block of the fixed-position .search-box  */
 	transform: translateX(0);
-
+	z-index: 999;
 	&.active {
 		input {
 			text-align: left;
