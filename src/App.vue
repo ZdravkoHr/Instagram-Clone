@@ -1,8 +1,6 @@
 <template>
 	<main-header></main-header>
-	<main>
-		<router-view class="content-wrapper"></router-view>
-	</main>
+	<router-view class="content-wrapper"></router-view>
 </template>
 
 <style lang="scss">
@@ -11,6 +9,7 @@
 
 <script>
 import MainHeader from './components/Header';
+
 export default {
 	components: { MainHeader },
 };
