@@ -1,6 +1,6 @@
 <template>
 	<div class="user-box">
-		<div class="user-img" :class="storyClass">
+		<div class="user-img ig-user-img" :class="storyClass">
 			<img :src="data.picture.thumbnail" alt="userImg" />
 		</div>
 		<div class="user-info">
@@ -27,26 +27,10 @@ export default {
 }
 
 .user-img {
-	border-radius: 50%;
-	overflow: hidden;
 	margin: 0 10px;
 	padding: 1px;
 	width: 50px;
 	height: 50px;
-	&.story-visited {
-		border: 2px solid #ccc;
-	}
-
-	&.story-unvisited {
-		border: 2px solid red;
-	}
-	&.story-cf {
-		border: 2px solid #77f677;
-	}
-
-	img {
-		border-radius: 50%;
-	}
 }
 
 .user-info {

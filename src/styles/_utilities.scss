@@ -19,3 +19,28 @@ $max-width: 1000px;
 	padding: 2px 6px;
 	text-align: center;
 }
+
+.ig-user-img {
+	border-radius: 50%;
+	overflow: hidden;
+	padding: 2%;
+	&.story-visited {
+		border: 2px solid #ccc;
+	}
+
+	&.story-unvisited {
+		border: 2px solid red;
+	}
+	&.story-cf {
+		border: 2px solid #77f677;
+	}
+
+	img {
+		border-radius: 50%;
+	}
+}
+
+.round-box {
+	border: 1px solid $gray-1;
+	border-radius: 2px;
+}
