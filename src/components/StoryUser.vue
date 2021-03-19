@@ -39,12 +39,12 @@ export default {
 	left: 0;
 }
 .username {
-	font-size: 10px;
+	font-size: 12px;
 	color: #000;
 	text-align: center;
 }
 .ig-user-img {
-	width: 65px;
+	width: 60px;
 	margin: auto;
 }
 </style>

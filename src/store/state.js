@@ -1,7 +1,7 @@
 const data = {
 	users: [],
 	users2: [],
-	userImg: 'https://randomuser.me/api/portraits/thumb/women/54.jpg',
+	loggedUser: {},
 };
 
 export default {

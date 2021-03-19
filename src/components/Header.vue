@@ -37,7 +37,7 @@ export default {
 	},
 	computed: {
 		userImg() {
-			return this.$store.state.userImg;
+			return this.$store.state.loggedUser.picture?.thumbnail;
 		},
 		directCount() {
 			return 2;

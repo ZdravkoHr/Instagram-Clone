@@ -37,7 +37,7 @@ export default {
 		const passedWidth =
 			Math.abs((this.percentsAway / 100) * this.contentWidth) +
 			this.contentWidth;
-		console.log(passedWidth, totalWidth);
+
 		this.hasNext = passedWidth <= totalWidth;
 	},
 	mounted() {

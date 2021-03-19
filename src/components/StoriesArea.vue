@@ -1,5 +1,5 @@
 <template>
-	<div class="story-area round-box">
+	<div class="round-box">
 		<carousel>
 			<template v-slot:items>
 				<story-user

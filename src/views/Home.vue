@@ -4,7 +4,7 @@
 			<stories-area class="stories-area"></stories-area>
 			<div class="feed"></div>
 		</div>
-		<aside-view></aside-view>
+		<aside-view class="aside-view"></aside-view>
 	</main>
 </template>
 
@@ -21,9 +21,15 @@ export default {
 
 <style lang="scss" scoped>
 main {
-	display: grid;
-	grid-template-columns: 60% 40%;
+	display: flex;
+	justify-content: space-between;
 	margin-top: 30px;
-	grid-gap: 50px;
+}
+.content {
+	width: 65%;
+}
+
+.aside-view {
+	width: 35%;
 }
 </style>

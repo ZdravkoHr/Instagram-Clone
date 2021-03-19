@@ -8,6 +8,7 @@ function loadUsers(state, users) {
 	});
 
 	state.users.push(...users);
+	state.loggedUser = { ...users[0] };
 }
 
 export { loadUsers };
