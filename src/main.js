@@ -7,4 +7,5 @@ createApp(App)
 	.use(store)
 	.use(router)
 	.mixin(mixins[0])
+	.mixin(mixins[1])
 	.mount('#app');

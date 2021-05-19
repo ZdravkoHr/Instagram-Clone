@@ -88,6 +88,7 @@ export default {
 }
 .content {
 	display: flex;
+
 	color: #fff;
 
 	margin: auto;
